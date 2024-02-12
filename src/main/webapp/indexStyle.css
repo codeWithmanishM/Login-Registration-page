@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+body{
+	justify-content: center;
+	align-items: center;
+	font-family: 'Arial',  sans-serif;
+	height: 100vh;
+	margin:0;
+	background-image: url('./img/background-regi.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color:#333;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(113, 36, 101);
+}
+span{
+	color: rgb(64, 0, 64);
+}
+button{
+	background-color: rgb(128, 0, 64);
+	
+}
+h1{
+	font-weight: bold;
+}
+p{
+	margin:20px 0;
+	line-height:1.6;
+}
+
+.links a{
+	margin: 0 10px;
+	text-decoration: none;
+	color: peachpuff;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.links a:hover{
+	color:rgb(0, 128, 255);
+	font-size: 20px;
+	text-transform: uppercase;
+}
